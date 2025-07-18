@@ -1,0 +1,29 @@
+PALAK SONI
+24070123069
+ENTC A3
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int i=24;
+    int set;
+    int reset;
+    int bittobereset;
+    int bittobeset;
+    cout<<"Enter the bit position to be set:"<<endl;
+    cin>>bittobeset;
+    
+    cout<<"Enter the bit position to be reset:"<<endl;
+    cin>>bittobereset;
+    
+    set= i|(1<<bittobeset);
+    reset=i&(~(1<<bittobereset));
+   
+    cout<<"Your number is:"<<set<<endl;
+   
+    cout<<"Your number is:"<<reset<<endl;
+
+    return 0;
+   
+}
