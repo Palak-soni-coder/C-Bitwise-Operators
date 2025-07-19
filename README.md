@@ -49,7 +49,16 @@ This program demonstrates how the bitwise AND, OR, NOT, XOR, left shift, and rig
 - `Left Shift` multiplies a number by 2ⁿ.
 - `Right Shift` divides a number by 2ⁿ.
 
-This is useful to visualize how each bitwise operator affects the binary representation of numbers.
+This is useful to visualize how each bitwise operator affects the binary representation of numbers.<br>
+
+
+**Sample Output**:<br>
+Enter the bit position to be set:
+5<br>
+Enter the bit position to be reset:
+3<br>
+Your number is:56<br>
+Your number is:16<br>
 
 ---
 
@@ -64,8 +73,17 @@ For example, if you want to set bit 3, the mask will be `1 << 3`. Applying `i | 
 To reset bit 4, the mask is again `1 << 4`, and `i & (~mask)` clears that bit.
 
 This is often used in low-level system programming, flag management, and control register configuration.
-
 ---
+
+**Sample Output**<br>
+
+AND: 0<br>
+OR:6<br>
+NOT: -5<br>
+XOR: 6<br>
+right shift: 1<br>
+left shift: 4<br>
+
 
 ## Conclusion
 
