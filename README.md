@@ -2,8 +2,8 @@
 **Name:** Palak Soni  
 **Division:** ENTC-A3  
 **PRN:** 24070123069  
+**Title:**  Bitwise Operators in C++
 
-# Bitwise Operators in C++
 ---
 
 ## Introduction
@@ -73,7 +73,7 @@ For example, if you want to set bit 3, the mask will be `1 << 3`. Applying `i | 
 To reset bit 4, the mask is again `1 << 4`, and `i & (~mask)` clears that bit.
 
 This is often used in low-level system programming, flag management, and control register configuration.
----
+-
 
 **Sample Output**<br>
 
