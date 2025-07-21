@@ -1,6 +1,9 @@
-PALAK SONI
-24070123069
-ENTC A3
+//EXPERIMENT-4
+// PALAK SONI
+// 24070123069
+// ENTC A3
+//Problem statement-Write a program to set and reset the position of bit with the use of bitwise operators in C++.
+
 
 #include<iostream>
 using namespace std;
@@ -27,3 +30,11 @@ int main(){
     return 0;
    
 }
+
+
+/*Output
+Enter the bit position to be set: 5
+Enter the bit position to be reset: 3
+Your number is:56
+Your number is:16
+*/
